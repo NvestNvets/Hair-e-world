@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hair-e World - Your Ultimate Hair Styling Destination</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+      margin: 0;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    h1 { 
+      color: #2d3748;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .subtitle {
+      color: #4a5568;
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin: 3rem 0;
+    }
+    .service-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+    .service-card h3 {
+      color: #2d3748;
+      margin-bottom: 1rem;
+    }
+    .service-card p {
+      color: #4a5568;
+      margin-bottom: 1.5rem;
+    }
+    .button-group {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    a.button {
+      display: inline-block;
+      background: #4299e1;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    a.button:hover {
+      background: #3182ce;
+    }
+    a.button.secondary {
+      background: #48bb78;
+    }
+    a.button.secondary:hover {
+      background: #38a169;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Hair-e World</h1>
+    <p class="subtitle">Your AI-powered destination for professional hair styling and booking</p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>For Stylists</h3>
+        <p>Professional tools and AI assistance to enhance your creativity and streamline your business</p>
+      </div>
+      <div class="service-card">
+        <h3>For Barbers</h3>
+        <p>Specialized features for men's grooming and classic barbering techniques</p>
+      </div>
+      <div class="service-card">
+        <h3>For Everyone</h3>
+        <p>Inclusive styling solutions for men, women, and children of all ages</p>
+      </div>
+    </div>
+
+    <div class="button-group">
+      <a class="button" href="https://expo.dev/@your-username/hair-e">Download the App</a>
+      <a class="button secondary" href="mailto:info@hair-e.app">Contact Us</a>
+    </div>
+  </div>
+</body>
+</html> 
